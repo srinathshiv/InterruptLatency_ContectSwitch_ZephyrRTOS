@@ -1,0 +1,15 @@
+TIP:
+====
+sh execute.sh to compile and build zephyr.strip file
+
+IO3 is configured both as GPIO OUT and PWM
+IO1 is configured as GPIO IN
+So connect IO3 and IO1 and load zephyr for all questions
+
+Viewing Outputs:
+================
+Shell name is cse522.
+[1]select cse522
+[2]qsn1 - to view interrupt latencies without background computing
+[3]qsn2 - to view interrupt latencies with background computing
+[4]qsn3 - to view context switch times
